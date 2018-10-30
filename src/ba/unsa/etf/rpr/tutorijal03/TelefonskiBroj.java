@@ -20,7 +20,6 @@ public abstract class TelefonskiBroj {
     @Override
     public abstract String ispisi();
     int compareTo(TelefonskiBroj o){
-        return Ispisi().compareTo(o.Ispisi());
-    }
+        return Ispisi().compareTo(o.Ispisi())}
 
 }

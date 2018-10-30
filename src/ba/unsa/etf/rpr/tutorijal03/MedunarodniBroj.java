@@ -20,11 +20,8 @@ public class MedunarodniBroj extends TelefonskiBroj {
 
     @Override
     public String ispisi() {
-        return null;
+        return drzava + this.getBroj();
     }
 
-    @Override
-    public int hashCode() {
-        return 0;
-    }
+
 }
