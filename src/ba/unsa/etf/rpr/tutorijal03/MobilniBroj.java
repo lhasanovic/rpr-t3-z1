@@ -19,6 +19,5 @@ public class MobilniBroj extends TelefonskiBroj {
 
     @Override
     public String ispisi() {
-        return mobilnaMreza + this.getBroj();
-    }
+        return mobilnaMreza + "/" + this.getBroj(); }
 }

@@ -15,11 +15,9 @@ public abstract class TelefonskiBroj {
     public void setBroj(String broj) {
         this.broj = broj;
     }
-  
 
-    @Override
     public abstract String ispisi();
     int compareTo(TelefonskiBroj o){
-        return Ispisi().compareTo(o.Ispisi())}
+        return ispisi().compareTo(o.ispisi()); }
 
 }

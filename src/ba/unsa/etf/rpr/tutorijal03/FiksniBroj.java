@@ -19,8 +19,6 @@ public class FiksniBroj extends TelefonskiBroj {
 
     @Override
     public String ispisi() {
-        return grad + this.getBroj();
+        return grad.toString() + "/" + this.getBroj();
     }
-
-
 }
